@@ -23,4 +23,6 @@
     <!-- Color for song name (list item.xml) and seek bar (now playing info.xml) -->
     <color name="songs_name_and_seek_bar">#bffd8f09</color>
 
+    <color name="white">#ffffff</color>
+
 </resources>
