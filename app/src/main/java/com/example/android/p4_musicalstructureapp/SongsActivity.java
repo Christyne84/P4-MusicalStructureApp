@@ -26,13 +26,11 @@ import java.util.ArrayList;
 
 public class SongsActivity extends AppCompatActivity {
     public static final ArrayList<MusicInfo> musicInfos = new ArrayList<MusicInfo>();
-    public static Boolean flagSongsActivitySongSelect = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.music_info);
-        flagSongsActivitySongSelect = false;
 
         // Create an array of musicInfos
         musicInfos.add(new MusicInfo("How high the Moon","Les Paul"));
@@ -70,7 +68,6 @@ public class SongsActivity extends AppCompatActivity {
                 MusicAdapter.currentMusicInfo = musicInfos.get(position);
                 Intent intent = new Intent(SongsActivity.this, NowPlayingActivity.class);
                 startActivity(intent);
-                flagSongsActivitySongSelect = true;
            }
         };
 

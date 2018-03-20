@@ -7,8 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    public static Boolean flagMainActivitySongs = false;
-    public static Boolean flagMainActivityNowPlaying = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,10 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity(songsIntent);
-
-                //When the SongsActivity starts from the MainActivity,
-                // modify the flag from false to true
-                flagMainActivitySongs = true;
             }
         });
 
@@ -45,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the nowPlaying category is clicked on.
             @Override
             public void onClick(View view) {
-                //When the NowPlayingActivity starts from the MainActivity,
-                // modify the flag from false to true
-                flagMainActivityNowPlaying = true;
-
                 // Create a new intent to open the {@link NowPlayingActivity}
                 Intent nowPlaying = new Intent(MainActivity.this, NowPlayingActivity.class);
 
