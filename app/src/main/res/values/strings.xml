@@ -45,4 +45,34 @@
 
     <!-- Strings used in NowPlayingActivity.java.-->
     <string name="choose_song_text_view">Choose a song from the list</string>
+    <string name="song_name1">How high the Moon</string>
+    <string name="artist_name1">Les Paul</string>
+    <string name="song_name2">Stone Crazy</string>
+    <string name="song_name3">Pretty Woman</string>
+    <string name="song_name4">Purple Haze</string>
+    <string name="song_name5">Black Magic Woman</string>
+    <string name="song_name6">Sultans Of Swing</string>
+    <string name="song_name7">La Grange</string>
+    <string name="song_name8">Solo from \'Can\'t You Hear Me Knocking\'</string>
+    <string name="song_name9">Riding With The King</string>
+    <string name="song_name10">Born Under A Bad Sign</string>
+    <string name="song_name11">Cold Shot</string>
+    <string name="song_name12">A Day In The Life</string>
+    <string name="song_name13">Smoke on the water</string>
+    <string name="song_name14">Comfortably Numb</string>
+    <string name="song_name15">Shine On You Crazy Diamond</string>
+    <string name="artist_name2">Buddy Guy</string>
+    <string name="artist_name3"><![CDATA[Roy Orbison, Bruce Springsteen & James Burton]]></string>
+    <string name="artist_name4">Jimi Hendrix</string>
+    <string name="artist_name5">Carlos Santana</string>
+    <string name="artist_name6">Dire Straits</string>
+    <string name="artist_name7">ZZ Top</string>
+    <string name="artist_name8">Mick Taylor</string>
+    <string name="artist_name9"><![CDATA[B.B. King & Eric Clapton]]></string>
+    <string name="artist_name10">Albert King</string>
+    <string name="artist_name11">Stevie Ray Vaughan</string>
+    <string name="artist_name12">Jeff Beck</string>
+    <string name="artist_name13">Ritchie Blackmore</string>
+    <string name="artist_name14">David Gilmour</string>
+    <string name="artist_name15">David Gilmour</string>
 </resources>

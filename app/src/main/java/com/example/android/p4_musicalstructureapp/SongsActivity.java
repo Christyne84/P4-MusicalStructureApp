@@ -33,21 +33,21 @@ public class SongsActivity extends AppCompatActivity {
         setContentView(R.layout.music_info);
 
         // Create an array of musicInfos
-        musicInfos.add(new MusicInfo("How high the Moon","Les Paul"));
-        musicInfos.add(new MusicInfo("Stone Crazy", "Buddy Guy"));
-        musicInfos.add(new MusicInfo("Pretty Woman", "Roy Orbison, Bruce Springsteen & James Burton"));
-        musicInfos.add(new MusicInfo("Purple Haze", "Jimi Hendrix"));
-        musicInfos.add(new MusicInfo("Black Magic Woman", "Carlos Santana"));
-        musicInfos.add(new MusicInfo("Sultans Of Swing", "Dire Straits"));
-        musicInfos.add(new MusicInfo("La Grange", "ZZ Top"));
-        musicInfos.add(new MusicInfo("Solo from 'Can't You Hear Me Knocking'", "Mick Taylor"));
-        musicInfos.add(new MusicInfo("Riding With The King", "B.B. King & Eric Clapton"));
-        musicInfos.add(new MusicInfo("Born Under A Bad Sign", "Albert King"));
-        musicInfos.add(new MusicInfo("Cold Shot", "Stevie Ray Vaughan"));
-        musicInfos.add(new MusicInfo("A Day In The Life", "Jeff Beck"));
-        musicInfos.add(new MusicInfo("Smoke on the water", "Ritchie Blackmore"));
-        musicInfos.add(new MusicInfo("Comfortably Numb", "David Gilmour"));
-        musicInfos.add(new MusicInfo("Shine On You Crazy Diamond", "David Gilmour"));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name1),getString(R.string.artist_name1)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name2), getString(R.string.artist_name2)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name3), getString(R.string.artist_name3)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name4), getString(R.string.artist_name4)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name5), getString(R.string.artist_name5)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name6), getString(R.string.artist_name6)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name7), getString(R.string.artist_name7)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name8), getString(R.string.artist_name8)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name9), getString(R.string.artist_name9)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name10), getString(R.string.artist_name10)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name11), getString(R.string.artist_name11)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name12), getString(R.string.artist_name12)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name13), getString(R.string.artist_name13)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name14), getString(R.string.artist_name14)));
+        musicInfos.add(new MusicInfo(getString(R.string.song_name15), getString(R.string.artist_name15)));
 
         // Create an {@link MusicAdapter}, whose data source is a list of {@link MusicInfo}s. The
         // musicAdapter knows how to create list items for each item in the list.
