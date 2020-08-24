@@ -48,7 +48,7 @@ public class MusicAdapter extends ArrayAdapter<MusicInfo> {
         MusicInfo displayedMusicInfo = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID song_title_text_view.
-        TextView songTitleTextView = (TextView) listItemView.findViewById(R.id.song_title_text_view);
+        TextView songTitleTextView = listItemView.findViewById(R.id.song_title_text_view);
 
         // Get the Song Name from the currentMusicInfo object and set this text on
         // the songTitleTextView.
@@ -57,7 +57,7 @@ public class MusicAdapter extends ArrayAdapter<MusicInfo> {
         }
 
         // Find the TextView in the list_item.xml layout with the ID artist_text_view.
-        TextView artistNameTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
+        TextView artistNameTextView = listItemView.findViewById(R.id.artist_text_view);
 
         // Get the Artist Name from the displayedMusicInfo object and set this text on
         // the artistName TextView.

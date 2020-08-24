@@ -18,8 +18,8 @@ public class NowPlayingActivity extends AppCompatActivity {
         setContentView(R.layout.now_playing_info);
 
         // Find the Views that show the song and artist's names in the now_playing_info.xml
-        TextView songTitleTextView = (TextView) findViewById(R.id.song_title_text_view);
-        TextView artistNameTextView = (TextView) findViewById(R.id.artist_text_view);
+        TextView songTitleTextView = findViewById(R.id.song_title_text_view);
+        TextView artistNameTextView = findViewById(R.id.artist_text_view);
 
         //Get the intent
         getIntent();

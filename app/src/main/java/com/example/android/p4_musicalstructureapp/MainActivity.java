@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the songs category
-        TextView songs = (TextView) findViewById(R.id.songs);
+        TextView songs = findViewById(R.id.songs);
 
         // Set a click listener on that View
         songs.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the nowPlaying category
-        TextView nowPlaying = (TextView) findViewById(R.id.now_playing);
+        TextView nowPlaying = findViewById(R.id.now_playing);
 
         // Set a click listener on that View
         nowPlaying.setOnClickListener(new View.OnClickListener() {

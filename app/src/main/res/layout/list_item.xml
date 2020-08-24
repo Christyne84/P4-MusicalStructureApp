@@ -10,10 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/play"
-        android:paddingRight="@dimen/activity_horizontal_margin"
         android:layout_gravity="center"
         android:contentDescription="@string/list_item_play_button_image"
-        android:paddingEnd="@dimen/activity_horizontal_margin" />
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="16dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
